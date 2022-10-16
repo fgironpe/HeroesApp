@@ -1,0 +1,28 @@
+
+    <div class="hero-card">
+        <a 
+            [routerLink]="[index]">
+            <img [src]="hero.imageUrl" [alt]="hero.imageAlt">
+        </a>
+        <div class="card-title">
+            <span>{{ hero.name }}</span>
+            <div>
+                <mat-icon 
+                    aria-hidden="false" 
+                    aria-label="Edit" 
+                    fontIcon="edit" 
+                    class="control-icon" 
+                    (click)="onEditHero()"
+                >
+                </mat-icon>
+                <mat-icon 
+                    aria-hidden="false" 
+                    aria-label="Delete" 
+                    fontIcon="delete" 
+                    class="control-icon" 
+                    (click)="onDeleteHero(hero.id)"
+                >
+                </mat-icon>
+            </div>
+        </div>
+    </div>

@@ -1,0 +1,125 @@
+{
+  "heroes": [
+    {
+      "name": "BATMAN",
+      "alterEgo": "Bruce Wayne",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vel ultrices sem. Vestibulum lorem nulla, bibendum id tincidunt quis, tincidunt vel urna. Nunc rutrum ligula a risus elementum, ut varius magna feugiat. Quisque lobortis tortor tortor, nec lobortis metus facilisis eget. Nulla felis tellus, pulvinar nec gravida eu, dignissim et neque. Donec rhoncus tristique ligula in egestas. Duis a nisl nisi. Vivamus id nisi sit amet dolor sollicitudin luctus. Nullam pretium dolor in molestie tincidunt. Etiam vestibulum mauris a libero ultricies, eget gravida velit consectetur. ",
+      "universe": "DC",
+      "author": "Bill Finger, Bob Kane",
+      "year": 1939,
+      "imageUrl": "https://i.blogs.es/eeca5f/591703f1-eb03-447b-96dd-ff4904a17dc1/1366_2000.webp",
+      "imageAlt": "BATMAN image",
+      "id": 0
+    },
+    {
+      "name": "Superman",
+      "alterEgo": "Clart Ken",
+      "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit natoque, augue dapibus porta aenean odio tempus nibh suscipit, pharetra curae et ligula magna nascetur cursus. Aliquam suscipit libero conubia vestibulum sapien laoreet neque primis ullamcorper molestie senectus, class tincidunt vel interdum condimentum aenean phasellus curae non maecenas ac, hac parturient venenatis mauris dapibus eget taciti convallis lacinia proin. Euismod nunc interdum sed aliquet lectus odio vehicula sociis, condimentum nulla fringilla ultrices fusce lobortis habitant.",
+      "universe": "DC",
+      "author": null,
+      "year": 1938,
+      "imageUrl": "https://i0.wp.com/geekzpot.net/wp-content/uploads/2021/02/33377ea3faee0abaafe5e2b7706a463cf6-19-superman.rsquare.w700.jpg?w=700&ssl=1",
+      "imageAlt": "Superman image",
+      "id": 1
+    },
+    {
+      "name": "WONDER WOMAN",
+      "alterEgo": "Princess Diana",
+      "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit, pretium est ultrices tristique dignissim nullam enim vehicula, mauris dictumst suspendisse suscipit sem massa. Elementum euismod lacinia ligula class tristique nibh vivamus habitant ad facilisi per nunc imperdiet, himenaeos parturient luctus aliquet nascetur donec mi sapien montes auctor rutrum diam rhoncus, felis magnis lacus ridiculus consequat sem turpis ac blandit sodales suspendisse tellus. Nulla netus tristique dis ultricies inceptos magna sed eleifend dui pharetra, sapien sociosqu habitant laoreet duis mus volutpat condimentum in parturient aptent, a tellus pellentesque proin cubilia viverra suspendisse etiam faucibus. Dignissim eros bibendum velit purus nullam placerat habitasse, et eleifend vulputate enim himenaeos dis lectus, aenean imperdiet cum facilisi faucibus aliquet. Nostra inceptos egestas mollis libero elementum orci class vivamus eu phasellus, nec curabitur quis taciti suspendisse sapien per blandit cum tristique vulputate, magnis pharetra viverra cras justo platea dictum quam pellentesque.",
+      "universe": "DC",
+      "author": "William Moulton Marston",
+      "year": 1941,
+      "imageUrl": "https://www.akiracomics.com/imagenes/poridentidad?identidad=23bee68b-e5bb-40ad-bdde-8cbaf364ea3a&ancho=850&alto=",
+      "imageAlt": "WONDER WOMAN image",
+      "id": 2
+    },
+    {
+      "id": 3,
+      "name": "Lex Luthor",
+      "alterEgo": "Alexander Luthor",
+      "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit, curabitur nunc vehicula enim senectus lobortis, ultricies porta dapibus platea class risus. Pulvinar imperdiet non varius felis sem gravida risus hendrerit laoreet, luctus velit enim praesent curae netus ad massa metus, iaculis rhoncus potenti arcu faucibus nullam morbi augue. Ultricies aliquam imperdiet taciti tortor metus torquent, eget netus aptent consequat phasellus, mauris lacus litora facilisis mattis.",
+      "imageUrl": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/lex-luthor-supergirl-aspecto-1548347169.jpg?crop=1.00xw:0.348xh;0,0.171xh&resize=980:*",
+      "imageAlt": "Lex Luthor image",
+      "universe": "DC",
+      "author": "Jerry Siegel, Joe Shuster",
+      "year": 1940
+    },
+    {
+      "id": 4,
+      "name": "Joker",
+      "alterEgo": "Joker",
+      "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit nam, rutrum nibh inceptos habitant phasellus sociis suscipit mi malesuada, conubia accumsan vehicula suspendisse ad turpis porta. Donec augue a ligula faucibus facilisis hac dapibus sapien fusce, conubia ridiculus hendrerit lobortis cras natoque leo etiam, fermentum quam velit posuere aenean netus diam auctor. Massa eu bibendum litora cum montes tortor integer tincidunt eros scelerisque, sollicitudin parturient luctus cubilia mus nam blandit per donec, ante dictumst fermentum vehicula ac nostra curabitur et habitasse.",
+      "imageUrl": "https://i0.wp.com/www.lacasadeel.net/wp-content/uploads/2022/08/joker-jason-todd-comics.jpg?w=1200&ssl=1",
+      "imageAlt": "Joker image",
+      "universe": "DC",
+      "author": "Bill Finger,Bob Kane, Jerry Robinson,",
+      "year": 1940
+    },
+    {
+      "id": 5,
+      "name": "Saitama",
+      "alterEgo": "Saitama",
+      "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit consequat, habitant felis nam varius laoreet eros inceptos. Magna potenti venenatis sed sapien enim quisque, pharetra augue cursus nostra pretium orci dis, eu nisi feugiat semper facilisi. In sodales felis metus porttitor natoque magnis at commodo, primis sociosqu egestas et tempus etiam conubia feugiat, faucibus potenti fringilla dis augue vitae ultricies.",
+      "imageUrl": "https://www.latercera.com/resizer/J2zFEjvIWsUqQBqHVutM7jBA7is=/900x600/smart/cloudfront-us-east-1.images.arcpublishing.com/copesa/6YFKZKMX55DM3PM7MKJGT2B64I.jpg",
+      "imageAlt": "Saitama image",
+      "universe": "One Punch Man",
+      "author": "Yusuke Murata",
+      "year": 2009
+    },
+    {
+      "id": 6,
+      "name": "Genos",
+      "alterEgo": "Genos",
+      "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit, justo tempor mollis fusce hendrerit. Sapien nisi enim faucibus id tempor etiam tincidunt aliquam natoque eleifend vel malesuada, hendrerit potenti pellentesque pretium quisque eget lacus molestie facilisis ut turpis. Vehicula ultricies dapibus varius etiam sociis tellus lectus quam iaculis, sapien dictum elementum taciti tempor malesuada hac leo integer hendrerit, conubia purus rutrum arcu laoreet aptent habitasse mauris. Dui ultricies quis congue quisque nibh, tempus nisi cursus tortor lacinia, ullamcorper primis taciti condimentum.",
+      "imageUrl": "https://areajugones.sport.es/wp-content/uploads/2020/01/genos-one-punch-man.jpg.webp",
+      "imageAlt": "Genos image",
+      "universe": "One Punch Man",
+      "author": "Yusuke Murata",
+      "year": 2009
+    },
+    {
+      "id": 7,
+      "name": "Tatsumaki",
+      "alterEgo": "Tatsumaki",
+      "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit est, blandit tristique risus cum accumsan pellentesque habitant vehicula, phasellus mauris nunc purus ridiculus iaculis turpis. Posuere morbi placerat in sollicitudin felis volutpat litora, senectus ridiculus odio quis eros ante mollis auctor, luctus nunc dictum netus quam nullam. Fames libero fringilla suspendisse enim himenaeos aliquet imperdiet ornare dis, ac ligula sapien duis laoreet placerat torquent tristique, feugiat ullamcorper diam etiam auctor condimentum inceptos eros.",
+      "imageUrl": "https://i0.wp.com/codigoespagueti.com/wp-content/uploads/2022/06/One-Punch-Man-Brasilena-ha-hecho-el-cosplay-definitivo-de-Tatsumaki.jpg?resize=1280%2C720&quality=80&ssl=1",
+      "imageAlt": "Tatsumaki image",
+      "universe": "One Punch Man",
+      "author": "Yusuke Murata",
+      "year": 2009
+    },
+    {
+      "name": "Spidermann",
+      "alterEgo": "Peter Parker",
+      "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit ligula, taciti leo conubia imperdiet inceptos potenti ullamcorper condimentum, at ultrices etiam rutrum mauris montes ridiculus. Volutpat semper nascetur vestibulum tempor posuere quam pulvinar mi class magnis, mus sem curae dictumst euismod massa lacus feugiat. Vestibulum bibendum enim nec sociosqu rutrum nascetur quisque auctor lectus cursus fermentum placerat non integer etiam, congue conubia ad netus nostra metus mi dictum sapien urna condimentum nibh molestie gravida.",
+      "universe": "Marvel",
+      "author": "Stan Lee, Steve Ditko",
+      "year": 1962,
+      "imageUrl": "https://www.elsoldemexico.com.mx/gossip/8esuvu-amazin-spiderman-.png/alternates/LANDSCAPE_768/Amazin%20Spiderman%20.png",
+      "imageAlt": "Spidermann image",
+      "id": 8
+    },
+    {
+      "id": 9,
+      "name": "Deadpool",
+      "alterEgo": "Secret",
+      "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit himenaeos nulla nunc, cras cubilia arcu varius vestibulum et urna sagittis felis, dui lectus condimentum tempus aliquet aptent integer magna ornare. Ac bibendum lacus dapibus velit egestas penatibus molestie mattis aenean, ad facilisi felis imperdiet nibh et aptent rhoncus id erat, taciti class vitae tempor in pharetra proin condimentum. Non commodo interdum aliquet nec curabitur praesent vestibulum rutrum, purus montes urna vel augue suspendisse sodales imperdiet, phasellus in metus id blandit tincidunt sapien. A quisque neque euismod congue accumsan faucibus velit, habitant est curae nullam egestas aliquet fames, aenean scelerisque porttitor duis sodales netus.",
+      "imageUrl": "https://cdn.hobbyconsolas.com/sites/navi.axelspringer.es/public/styles/hc_1440x810/public/media/image/2016/01/559932-deadpool-11-mejores-comics-masacre.jpg?itok=NJFKk8g8",
+      "imageAlt": "Deadpool image",
+      "universe": "Marvel",
+      "author": "Brian Posehn, Gerry Duggan, Scott Koblish",
+      "year": 2015
+    },
+    {
+      "id": 10,
+      "name": "Apocalypse",
+      "alterEgo": "En Sabah Nur",
+      "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit hendrerit urna, ultrices donec cum sodales venenatis dui cras curae vulputate, egestas nisi potenti platea nunc praesent justo quis, aliquet habitant facilisi purus sapien litora iaculis convallis. Ut facilisi sollicitudin mus nullam ullamcorper senectus scelerisque sem ligula, fusce penatibus per suscipit ad himenaeos auctor consequat facilisis, parturient ultricies ac eleifend mi erat rutrum conubia. In nisl nullam quis nostra a arcu feugiat vitae rutrum cursus ac, himenaeos integer molestie purus porttitor luctus eros odio enim risus tristique vulputate, proin fringilla et vestibulum habitasse etiam facilisis lacinia posuere dui. Dictum lacus mollis nascetur senectus aptent id pellentesque pretium urna nibh eros, risus ridiculus porta cubilia hac aliquam mauris sociis duis massa commodo condimentum, velit elementum venenatis nisi habitasse netus praesent at ultrices diam.",
+      "imageUrl": "https://blacknerdproblems.com/wp-content/uploads/2020/12/X-Men-Apocalypse-Comic-With-Sword.jpg",
+      "imageAlt": "Apocalypse image",
+      "universe": "Marvel",
+      "author": "Bob Layton, Louise Simonson, Jackson Guice",
+      "year": 1985
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+/* You can add global styles to this file, and also import other style files */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html, body { 
+    height: 100%; 
+}
+
+body { 
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+    background-color: #edf6f9;
+}
+
+/* Titles */
+h1 {
+    font-weight: 700;
+    color: #3f51b5;
+}
+
+/* Margins */
+
+.ml-05 {
+    margin-left: 0.5rem;
+}
+
+/* Toastr */
+.ok-toastr {
+    background-color: rgb(78, 150, 78);
+    color: white;
+}
+
+.warning-toastr {
+    background-color: rgb(255, 217, 0);
+}
+
+.error-toastr {
+    background-color: rgb(177, 62, 62);
+}

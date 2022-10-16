@@ -1,0 +1,9 @@
+.container{
+    margin: 5vh 20vw;
+}
+
+@media (max-width: 920px) {
+    .container{
+        margin: 5vh 5vw;
+    }
+}

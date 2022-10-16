@@ -1,0 +1,58 @@
+.hero-card {
+    border-radius: 0.5rem;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 3px 1px -2px rgba(0,0,0,0.12), 0 1px 5px 0 rgba(0,0,0,0.2);
+    display: flex;
+    flex-direction: column;
+    height: 15rem;
+    width: 15rem;
+    overflow: hidden;
+    transition: box-shadow 0.5s ease-in-out;
+}
+
+.hero-card:hover {
+    box-shadow: 0 0.3rem 0.5rem 0.1rem rgba(0,0,0,0.14), 0 0.5rem 1rem 0.5rem rgba(0,0,0,0.12), 0 0.8rem 1rem -0.5rem rgba(0,0,0,0.2);
+}
+
+.hero-card > a > img {
+    background-position: center center;
+    background-repeat: no-repeat;
+    float: left;
+    height: 13.2rem;
+    object-fit: cover;
+    transition: transform .5s ease;
+    width: 15rem;
+}
+
+.hero-card:hover > a > img {
+    cursor: pointer;
+    transform: rotate(7deg) scale(1.2);
+}
+
+.card-title {
+    align-items: center;
+    background-color: black;
+    color: white;
+    display: flex;
+    font-weight: 600;
+    justify-content: space-between;
+    padding: 0rem 1rem; 
+    width: 100%;
+    z-index: 1;
+}
+
+.card-title span {
+    max-width: 75%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-transform: uppercase;
+    white-space: nowrap;
+}
+
+.control-icon {
+    
+    transform: scale(0.7);
+}
+
+.control-icon:hover {
+    cursor: pointer
+}

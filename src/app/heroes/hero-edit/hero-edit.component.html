@@ -1,0 +1,61 @@
+<div *ngIf="!editMode; else editTitle">
+    <h1>Add new hero</h1>
+</div>
+<ng-template #editTitle>
+    <h1>Edit</h1>
+</ng-template>
+<form [formGroup]="heroForm" (ngSubmit)="onSubmit()"  *ngIf="heroForm">
+    <div class="form-container">
+        <mat-form-field appearance="standard">
+            <mat-label>Name</mat-label>
+            <input matInput placeholder="Name" formControlName="name" uppercase>
+            <mat-error *ngIf="heroForm.controls['name'].hasError('required')">
+                Name is <strong>required</strong>
+            </mat-error>
+        </mat-form-field>
+        <mat-form-field appearance="standard">
+            <mat-label>Alter Ego</mat-label>
+            <input matInput placeholder="Alter Ego" formControlName="alterEgo">
+        </mat-form-field>
+        <mat-form-field appearance="standard">
+            <mat-label>Description</mat-label>
+            <textarea matInput placeholder="Description" formControlName="description"></textarea>
+            <mat-error *ngIf="heroForm.controls['description'].hasError('required')">
+                Description is <strong>required</strong>
+            </mat-error>
+        </mat-form-field>
+        <mat-form-field appearance="standard">
+            <mat-label>Universe</mat-label>
+            <input matInput placeholder="Universe" formControlName="universe">
+            <mat-error *ngIf="heroForm.controls['universe'].hasError('required')">
+                Universe is <strong>required</strong>
+            </mat-error>
+        </mat-form-field>
+        <mat-form-field appearance="standard">
+            <mat-label>Author</mat-label>
+            <input matInput placeholder="Author" formControlName="author">
+        </mat-form-field>
+        <mat-form-field appearance="standard">
+            <mat-label>Year</mat-label>
+            <input matInput type="number" placeholder="Year" formControlName="year">
+            <mat-error *ngIf="heroForm.controls['year'].hasError('required')">
+                Year is <strong>required</strong> or must be <strong>numeric</strong>
+            </mat-error>
+        </mat-form-field>
+        <mat-form-field appearance="standard">
+            <mat-label>Image URL</mat-label>
+            <input matInput placeholder="Image URL" formControlName="imageUrl">
+            <mat-error *ngIf="heroForm.controls['imageUrl'].hasError('required')">
+                Image Url is <strong>required</strong>
+            </mat-error>
+        </mat-form-field>
+        <div class="img-container" *ngIf="hero.imageUrl">
+            <img [src]="hero.imageUrl" class="img-responsive" alt="">
+        </div>
+    </div>
+    <div class="button-container">
+        <button mat-raised-button color="primary" type="submit" [disabled]="heroForm.invalid">Save</button>
+        <button mat-raised-button color="warn" (click)="onCancel()">Cancel</button>
+    </div>
+</form>
+<!-- <app-spinner></app-spinner> -->

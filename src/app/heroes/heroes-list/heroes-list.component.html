@@ -1,0 +1,33 @@
+<div>
+    <h1>Heroes List</h1>
+</div>
+<div class="filter-container">
+    <mat-form-field appearance="standard">
+        <mat-label>Filter Heroes</mat-label>
+        <input matInput (keyup)="filterHeroes($event)" placeholder="Type an hero to filter for" #input>
+    </mat-form-field>
+    <button 
+        mat-icon-button 
+        color="primary" 
+        aria-label="Add hero"
+        (click)="onAddHero()">
+        <mat-icon>add</mat-icon>
+    </button>
+</div>
+<div class="card-container" *ngIf="heroes">
+    <app-hero-item
+        *ngFor="let hero of filteredHeroes | 
+            slice:((paginator.pageIndex)*paginator.pageSize):((paginator.pageIndex+1)*paginator.pageSize)"
+        [hero]="hero"
+        [index]="hero.id"
+        (heroDeleted)="getHeroes()">
+    </app-hero-item>
+</div>
+<div class="paginator-container">
+    <mat-paginator #paginator [length]="filteredHeroes.length"
+                   [pageSize]="pageSize"
+                   [pageSizeOptions]="pageSizeOptions"
+                   (page)="pageEvent = $event"
+                   aria-label="Select page">
+    </mat-paginator>
+</div>

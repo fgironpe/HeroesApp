@@ -1,0 +1,19 @@
+<div *ngIf="hero">
+    <h1>{{ hero.name }}</h1>
+    <div class="img-data-container">
+        <div class="img-container">
+            <img [src]="hero.imageUrl" [alt]="hero.imageAlt">
+        </div>
+        <div class="data-container">
+            <p>Alter Ego: {{ hero.alterEgo }}</p>
+            <p>Author: {{ hero.author }}</p>
+            <p>Universe: {{ hero.universe }}</p>
+            <p>Year: {{ hero.year }}</p>
+        </div>
+    </div>
+    <div class="desc-container">
+        <p>{{ hero.description }}</p>
+        <button mat-raised-button color="primary" (click)="onReturn()">Back</button>
+    </div>
+</div>
+<!-- <app-spinner></app-spinner> -->
